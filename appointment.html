@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Book a travel consultation | WanderLux Travel Agency
+  </title>
+  <meta content="Request a personalised travel consultation and start planning your next adventure with WanderLux." name="description"/>
+  <meta content="Book a travel consultation | WanderLux" property="og:title"/>
+  <meta content="Request a personalised travel consultation and start planning your next adventure with WanderLux." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="assets/images/destination-0.jpg" property="og:image"/>
+  <meta content="#10243A" name="theme-color"/>
+  <link href="assets/icons/compass.svg" rel="icon" type="image/svg+xml"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="" src="js/data.js">
+  </script>
+  <script defer="" src="js/main.js">
+  </script>
+  <script defer="" src="js/config.js">
+  </script>
+  <script defer="" src="js/forms.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container nav-shell">
+    <a aria-label="WanderLux home" class="brand" href="index.html">
+     <span class="brand-mark">
+      ✧
+     </span>
+     <span>
+      WanderLux
+      <small>
+       TRAVEL AGENCY
+      </small>
+     </span>
+    </a>
+    <button aria-controls="navigation" aria-expanded="false" aria-label="Open navigation" class="menu-toggle">
+     ☰
+    </button>
+    <nav aria-label="Main navigation" id="navigation">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="destinations.html">
+      Destinations
+     </a>
+     <a href="destinations.html#services">
+      Services
+     </a>
+     <a href="calculator.html">
+      Trip Calculator
+     </a>
+     <a href="about.html">
+      About Us
+     </a>
+     <a href="contact.html">
+      Contact
+     </a>
+     <a class="button button-small" href="appointment.html">
+      Book Consultation
+      <span aria-hidden="true">↗</span>
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-intro">
+    <div class="container">
+     <p class="eyebrow">
+      LET’S START WITH A CONVERSATION
+     </p>
+     <h1>
+      Good journeys begin
+      <br/>
+      with
+      <em>
+       a great conversation.
+      </em>
+     </h1>
+     <p class="intro-text">
+      Tell us what you have in mind. We’ll help turn your travel wish list into a considered plan.
+     </p>
+    </div>
+   </section>
+   <section class="section container split">
+    <aside class="consultation-aside">
+     <img alt="Overwater villas and blue lagoon in the Maldives" src="assets/images/destination-2.jpg"/>
+     <h2>
+      Your dreams.
+      <br/>
+      <em>
+       Our thoughtful planning.
+      </em>
+     </h2>
+     <p>
+      Explore destinations, talk through your budget and shape an itinerary that feels like you.
+     </p>
+     <ul class="tick-list">
+      <li>
+       A personal, no-pressure conversation
+      </li>
+      <li>
+       Travel ideas tailored to your interests
+      </li>
+      <li>
+       Clear next steps and transparent estimates
+      </li>
+     </ul>
+     <p class="notice">
+      Demonstration form. Requests are validated locally and are not transmitted or saved. Appointment times use Melbourne local time; no slot is reserved.
+     </p>
+    </aside>
+    <form class="panel" id="appointment-form" novalidate="">
+     <p class="eyebrow">
+      YOUR TRAVEL CONSULTATION
+     </p>
+     <h2>
+      Let’s plan something wonderful.
+     </h2>
+     <p class="fine-print">
+      All fields are required except the additional message.
+     </p>
+     <div class="form-grid">
+      <div class="field">
+       <label for="name">
+        Full name
+       </label>
+       <input aria-describedby="name-error" autocomplete="name" id="name" maxlength="100" name="name" required="" type="text"/>
+       <span class="field-error" id="name-error"></span>
+      </div>
+      <div class="field">
+       <label for="email">
+        Email address
+       </label>
+       <input aria-describedby="email-error" autocomplete="email" id="email" maxlength="254" name="email" required="" type="email"/>
+       <span class="field-error" id="email-error"></span>
+      </div>
+      <div class="field">
+       <label for="phone">
+        Phone number
+       </label>
+       <input aria-describedby="phone-error" autocomplete="tel" id="phone" maxlength="30" name="phone" placeholder="+61 400 123 456" required="" type="tel"/>
+       <span class="field-error" id="phone-error"></span>
+      </div>
+      <div class="field">
+       <label for="date">
+        Preferred appointment date
+       </label>
+       <input aria-describedby="date-error" id="date" name="date" required="" type="date"/>
+       <span class="field-error" id="date-error"></span>
+      </div>
+      <div class="field">
+       <label for="time">
+        Preferred time · Melbourne
+       </label>
+       <select aria-describedby="time-error" id="time" name="time" required="">
+        <option value="">
+        </option>
+        <option value="09:00">
+         09:00
+        </option>
+        <option value="10:00">
+         10:00
+        </option>
+        <option value="11:00">
+         11:00
+        </option>
+        <option value="14:00">
+         14:00
+        </option>
+        <option value="15:00">
+         15:00
+        </option>
+        <option value="16:00">
+         16:00
+        </option>
+       </select>
+       <span class="field-error" id="time-error"></span>
+      </div>
+      <div class="field">
+       <label for="interest">
+        Destination of interest
+       </label>
+       <select aria-describedby="interest-error" id="interest" name="interest" required="">
+        <option value="">
+         Choose a destination
+        </option>
+        <option value="Bali">
+         Bali
+        </option>
+        <option value="Paris">
+         Paris
+        </option>
+        <option value="Maldives">
+         Maldives
+        </option>
+        <option value="Switzerland">
+         Switzerland
+        </option>
+        <option value="Dubai">
+         Dubai
+        </option>
+        <option value="Japan">
+         Japan
+        </option>
+        <option value="Other">
+         Other / still exploring
+        </option>
+       </select>
+       <span class="field-error" id="interest-error"></span>
+      </div>
+      <div class="field">
+       <label for="party">
+        Number of travellers
+       </label>
+       <input aria-describedby="party-error" id="party" max="20" min="1" name="party" required="" step="1" type="number" value="2"/>
+       <span class="field-error" id="party-error"></span>
+      </div>
+      <div class="field full">
+       <label for="message">
+        Additional message (optional)
+       </label>
+       <textarea aria-describedby="message-error" id="message" maxlength="3000" name="message" rows="5"></textarea>
+       <span class="field-error" id="message-error"></span>
+      </div>
+     </div>
+     <button class="button" type="submit">
+      Request My Consultation ↗
+     </button>
+     <p class="form-status" role="status"></p>
+    </form>
+   </section>
+  </main>
+  <footer>
+   <div class="container footer-grid">
+    <div>
+     <a class="brand" href="index.html">
+      <span class="brand-mark">
+       ✧
+      </span>
+      <span>
+       WanderLux
+       <small>
+        TRAVEL AGENCY
+       </small>
+      </span>
+     </a>
+     <p>
+      Extraordinary places.
+      <br/>
+      Thoughtfully planned. Uniquely yours.
+     </p>
+    </div>
+    <div>
+     <h3>
+      Your next chapter
+     </h3>
+     <a href="destinations.html">
+      Explore destinations
+     </a>
+     <a href="calculator.html">
+      Estimate your trip
+     </a>
+     <a href="appointment.html">
+      Meet a travel consultant
+     </a>
+    </div>
+    <div>
+     <h3>
+      Get to know us
+     </h3>
+     <a href="about.html">
+      Our story
+     </a>
+     <a href="destinations.html#services">
+      Our services
+     </a>
+     <a href="contact.html">
+      Contact &amp; opening hours
+     </a>
+    </div>
+    <div>
+     <h3>
+      Let’s talk travel
+     </h3>
+     <p>
+      Melbourne, Australia · Demo location
+      <br/>
+      +61 3 5550 0100 · Demo number
+      <br/>
+      hello@wanderlux.example · Placeholder
+     </p>
+     <a href="https://www.instagram.com/" rel="noopener" target="_blank">
+      Instagram ↗
+      <small>
+       (platform link)
+      </small>
+     </a>
+     <a href="https://www.facebook.com/" rel="noopener" target="_blank">
+      Facebook ↗
+      <small>
+       (platform link)
+      </small>
+     </a>
+    </div>
+   </div>
+   <div class="container footer-bottom">
+    <span>
+     ©
+     <span data-year="">
+      2026
+     </span>
+     WanderLux Travel Agency
+    </span>
+    <span>
+     Academic demonstration · All prices in USD · No bookings processed
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>
